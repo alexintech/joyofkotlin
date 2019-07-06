@@ -18,5 +18,7 @@ allprojects {
 
     tasks.withType<Test> {
         useJUnitPlatform()
+        
+        maxHeapSize = "1G"
     }
 }
