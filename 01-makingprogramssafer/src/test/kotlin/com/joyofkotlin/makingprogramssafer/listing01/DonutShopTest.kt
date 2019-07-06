@@ -6,7 +6,7 @@ import org.junit.Test
 class DonutShopTest {
 
     @Test
-    fun testBuyCoffee() {
+    fun testBuyDonuts() {
         val creditCard = CreditCard()
         buyDonut(creditCard)
         buyDonut(creditCard)
